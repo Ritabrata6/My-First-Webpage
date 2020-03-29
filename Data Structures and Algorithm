@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<h1 style="text-align: left;"><span style="background-color: #ffff99;"><strong>DESIGN AND ANALYSIS OF ALGORITHMS</strong> (<span style="color: #ff0000;">18CSC204J</span>)&nbsp;</span></h1>
+<h3>&nbsp; &nbsp; &nbsp;&nbsp;<span style="color: #ff6600;">Contents :</span></h3>
+<ul>
+<li><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><span style="color: #ff6600;">Introduction to fundamental techniques for designing and analyzing algorithms</span></span></span></span></span></span></span></span></span></span></span></span></li>
+<li><span style="color: #ff6600;"><span style="color: #ff6600;">Asymptotic analysis;</span></span></li>
+<li><span style="color: #ff6600;"><span style="color: #ff6600;">Divide and conquer algorithms, greedy algorithms,graph algorithms and randomized algorithms;</span></span></li>
+<li><span style="color: #ff6600;">Data structures in Dynamic Program</span><span style="color: #ff6600;">ming</span></li>
+</ul>
+<h3><span style="color: #ff6600;">&nbsp; &nbsp; &nbsp; Sources :</span></h3>
+<ol>
+<li>
+<p><span style="color: #ff6600;"><span style="color: #ff6600;">Advanced Data structures by GeeksForGeeks(<a href="https://www.geeksforgeeks.org/advanced-data-structures/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/advanced-data-structures/</a></span></span>)</p>
+</li>
+<li><span style="color: #ff6600;">Introduction to Algorithms by Thomas Corman</span></li>
+</ol>
+<p>&nbsp;</p>
+<h2>&nbsp; &nbsp; UNIT WISE DESCRIPTION&nbsp;</h2>
+<ul>
+<li><span style="text-decoration: underline;">UNIT 1</span></li>
+<li><span style="text-decoration: underline;">UNIT 2</span></li>
+<li><span style="text-decoration: underline;">UNIT 3</span></li>
+<li><span style="text-decoration: underline;">UNIT 4</span></li>
+<li><span style="text-decoration: underline;">UNIT 5</span></li>
+</ul>
+<h1><strong><span style="text-decoration: underline;">UNIT 1:INTRODUCTION TO ALGORITHM DESIGN :</span></strong></h1>
+<h3><span style="color: #ff6600;"><span style="color: #ff6600;"><span style="color: #ff6600;"><span style="color: #ff6600;"><span style="color: #ff6600;"><strong> List of topics :</strong></span></span></span></span></span></h3>
+<ol>
+<li><span style="color: #ff6600;">Fundamentals of Algorithm</span></li>
+<li><span style="color: #ff6600;">Algorithm Design Techniques</span></li>
+<li><span style="color: #ff6600;">Designing an Algorithm</span></li>
+<li><span style="color: #ff6600;">Complexity of Algorithm</span></li>
+<li><span style="color: #ff6600;">Mathematical Analysis&nbsp;</span></li>
+<li><span style="color: #ff6600;">Recursion Tree</span></li>
+</ol>
+<h3><em> &nbsp; Algorithms:What are they?</em></h3>
+<div>&nbsp;</div>
+<div><strong><span style="color: #ff6600;">A finite set of instructions or logic, written in order, to accomplish a certain predefined task. Algorithm is not the complete code or program, it is just the core logic required to solve a problem. Can be expressed in multiple ways, like a high level informal code</span>(<span style="text-decoration: underline;">pseudocode</span>) <span style="color: #ff6600;">or a</span> <span style="text-decoration: underline;">flow chart</span>.</strong></div>
+<h3 style="text-align: left;">&nbsp;</h3>
+<h3><em> Characteristics of Algorithms :</em></h3>
+<ul>
+<li><span style="color: #ff6600;">An algorithm should have atleast 0 or more predefined inputs</span></li>
+<li><span style="color: #ff6600;">An algorithm should have atleast 1 or more defined outputs</span></li>
+<li><span style="color: #ff6600;">An algorithm should be clear and unambiguous</span></li>
+<li><span style="color: #ff6600;">Algorithms must terminate after a number of steps</span></li>
+<li><span style="color: #ff6600;">Should be feasible with the available resources</span></li>
+<li><span style="color: #ff6600;">An algorithm should follow either&nbsp; top-down or bottom-up approach</span></li>
+</ul>
+<h3 style="text-align: left;">&nbsp;&nbsp;<em>Pseudocode:</em></h3>
+<ul>
+<li><span style="color: #ff6600;">Its one of the methods used to represent an algorithm</span></li>
+<li><span style="color: #ff6600;">It does not follow a definite syntax</span></li>
+<li><span style="color: #ff6600;">Cannot be compiled or executed</span></li>
+<li><span style="color: #ff6600;">Can be read and understood by programmers who are similar to logical paradigm approaches</span></li>
+<li><span style="color: #ff6600;">Allows the control of nested structures like WHILE,FOR, etc</span></li>
+</ul>
+<h3><em>&nbsp;Algorithm Design Techniques:</em></h3>
+<ul>
+<li><span style="color: #ff6600;"><span style="color: #0000ff; text-decoration: underline;">Divide and Conquer approach</span>: Its a top-down approach. The algorithms which follow divide and conquer techniques divide the original problem into a set of subproblems whose solutions can be easily found out.</span></li>
+<li><span style="color: #ff6600;"><span style="color: #0000ff; text-decoration: underline;">Greedy Technique</span>: Its used to solve the optimization problems. An optimized problem is one we are given a set of instructions, which are required to either maximize or minimize. It always makes the choice best on the best space-time complexity.</span></li>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Dynammic Programming</span></span>: Its a bottom-up approach. In here we solve all the solutions to the subproblems and then combine all of those solutions together via recursion to find out the solution for the initial core problem.&nbsp;</span></li>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Branch and Bound</span></span>: It focuses basically on the fact that when a subproblem whose solutions could not be made out, is to be further divided into smaller fragments till the solutions can be found out by using the method of global optimization.</span></li>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Randomized Algorithm</span></span>: A randomized algorithm is defined as an algorithm that is allowed to access a source part of the initial problem and break it into randomized bits. These are then used in turn to influence the compilation of the initial source code.</span></li>
+</ul>
+<h3><em>&nbsp;Complexity of Algorithms:</em></h3>
+<div><span style="color: #ff6600;">Its very convenient to classify algorithm based on the relative amount of time needed or space needed for the compilation of the program, as a function of the input.</span></div>
+<ol>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Time Complexity</span></span>: Running time of a program as a function of the input size.</span></li>
+</ol>
+<p><em>&nbsp; &nbsp; 2. </em><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Space Complexity</span></span>: It is the amount of space an algorithm needs to &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; complete the complete compilation of a program.</span></p>
+<p><em><strong>Based on the two parameters , the following types are found :</strong></em></p>
+<ul>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Best case</span></span>: f(n) defined by the min number of steps required by an instance of size n .</span></li>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Worst case</span></span>: f(n) defined by the max number of steps required by an instance of size n.</span></li>
+<li><span style="color: #ff6600;"><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">Average case</span></span>: f(n) defined by the average number of steps taken by an instance of size n.</span></li>
+</ul>
